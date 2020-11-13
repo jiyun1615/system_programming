@@ -13,3 +13,4 @@
 * 1111 - 11월 11일 강의 코드 정리 (cat, copy, line, fprint, fscan, stcreate1, stcreate2, stprint, stquery, stupdate)
 
 * 1113 - 11월 13일 강의 코드 정리 (args, fore&back ground tasks, environ, printenv)
+ * 1111/db2, student.h에서 0201001로 했을 때 발생하는 문제 
