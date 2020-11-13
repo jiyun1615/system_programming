@@ -11,3 +11,5 @@
   * dbcreate, db1 수정 (020010 -> 20010, 8진수로 인한 오류가능성)
 
 * 1111 - 11월 11일 강의 코드 정리 (cat, copy, line, fprint, fscan, stcreate1, stcreate2, stprint, stquery, stupdate)
+
+* 1113 - 11월 13일 강의 코드 정리 (args, fore&back ground tasks, environ, printenv)
