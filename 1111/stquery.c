@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 	}
 
 	if((fp = fopen(argv[1], "rb")) == NULL) {
-		fprintf(stderr, "file open errpr\n");
+		fprintf(stderr, "file open error\n");
 		return 2;
 	}
 
@@ -28,7 +28,10 @@ int main(int argc, char *argv[])
 			else printf("no record %d \n", id);
 		}
 		else printf("input error");
-
+		
+		long size;
+		size = ftell(fp);
+		printf("location : %ld \n", size); 
 		printf("continue?(Y/N)");
 		scanf(" %c", &c);
 	} while(c == 'Y');
